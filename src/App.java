@@ -7,10 +7,11 @@ public class App {
     public static void main(String[] args) {
         Author dumasAlexandre = new Author("Александр", "Дюма");
         Author carrollLewis = new Author("Льюис", "Кэрролл");
+        Author twainMark = new Author("Марк", "Твен");
 
         Book monteCristo = new Book("Граф Монте Кристо", dumasAlexandre, 2022);
         Book aliceWonderland = new Book("Алиса в Стране чудес", carrollLewis, 2021);
-        Book tomSowyer = new Book("Приключения Тома Сойера", 2020);
+        Book tomSowyer = new Book("Приключения Тома Сойера", twainMark, 2020);
 
         System.out.println(monteCristo.getBookTitle());
         System.out.println(monteCristo.getAuthor());

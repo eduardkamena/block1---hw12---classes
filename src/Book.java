@@ -8,14 +8,6 @@ public class Book {
         this.author = author;
         this.publishingYear = publishingYear;
     }
-    /*
-    В задании было указано:
-    "Учтите, что авторы являются обязательными и книги не могут создаваться без авторов."
-    Можно было не писать код ниже, тогда была бы ошибка, если в книге отсутствует автор.
-     */
-    public Book(String bookTitle, int publishingYear) {
-        this(bookTitle, null, publishingYear);
-    }
 
     public String getBookTitle() {
         return this.bookTitle;
